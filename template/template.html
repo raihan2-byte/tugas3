@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="15" />
+    <title>Laporan Status Air dan Angin</title>
+    <style>
+      h1 {
+        margin: 80px 15px 95px 10px;
+        text-align: center;
+        color: whitesmoke;
+      }
+      h2 {
+        margin: auto;
+        text-align: center;
+        color: white;
+      }
+      body {
+        background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pngtree.com%2Ffreebackground%2Foffice-desktop-background_1353808.html&psig=AOvVaw1L1-cgGp27CufCNmSC1HVR&ust=1687232747097000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJD0v_i1zv8CFQAAAAAdAAAAABAE");
+        background-size: 1500px 750px;
+      }
+      p {
+        margin-top: 260px;
+        text-align: right;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Status Air dan Angin Saat ini</h1>
+    <h2>Ketinggian Air: {{.water}} m</h2>
+    <h2>Status: {{.statusWater}}</h2>
+    <br />
+    <h2>Kecepatan Angin: {{.wind}} m/s</h2>
+    <h2>Status: {{.statusWind}}</h2>
+    <p>
+      Raihan Alfarisi <br />
+      GLNG-KS06-006
+    </p>
+  </body>
+</html>
